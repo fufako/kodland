@@ -96,3 +96,53 @@ body {
 .about__content {
   padding: 0 40px;
 }
+
+.sales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  text-align: center;
+  gap: 20px;
+  background-color: #cbf3f0;
+}
+
+.sales__content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.sales__title {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.sales__item-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.sales__item-image {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.sales__item-button {
+  margin-top: 10px;
+  background-color: #ffbf69;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
