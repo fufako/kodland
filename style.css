@@ -60,7 +60,6 @@ body {
   font-size: 5rem;
   color: white;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
 }
 
 .hero__content {
@@ -75,4 +74,25 @@ body {
   background-color: #cbf3f0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  text-align: center;
+  gap: 20px;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about__content {
+  padding: 0 40px;
 }
